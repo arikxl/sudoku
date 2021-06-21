@@ -166,8 +166,16 @@ body {
 
 
 .restart {
-    background: #7F8C8D;
-    color: #ecf0f1;
+    background: #fefcea;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #fefcea 0%, #f1da36 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #fefcea 0%, #f1da36 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #fefcea 0%, #f1da36 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fefcea', endColorstr='#f1da36', GradientType=0);
+    /* IE6-9 */
 }
 
 /* console */
@@ -260,8 +268,8 @@ body {
 
 .statistics {
     text-align: center;
-    color: yellowgreen;
-    text-align: center;
+    color: yellow;
+    font-size: 2rem;
 }
 
 #sudoku_menu {
